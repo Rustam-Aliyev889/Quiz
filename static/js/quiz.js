@@ -7,7 +7,7 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 let currentQuestion = {};
 
-let = acceptingAnswers = true;
+let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
