@@ -1,3 +1,7 @@
+<h1 align="center">Quiz</h1>
+[View the live project here.](https://rustam-aliyev889.github.io/Quiz/index.html)
+<h2 align="center"><img src="static/images/screenshots/quiz-mock-up.jpg"></h2>
+
 # What the Project is about? 
 The project is a car related quiz. It consists of 13 questions and 4 answers for each question.You have 15 seconds for each question. The goal of the quiz is to test your knowledge about cars in addition to find out waht car you should be driving.  :-)
 
