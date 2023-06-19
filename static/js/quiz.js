@@ -119,88 +119,86 @@ let questions = [
     }
 ]
 
-const SCORE_POINTS = 100
-const MAX_QUESTIONS = 13
+const SCORE_POINTS = 100;
+const MAX_QUESTIONS = 13;
 let counter = 0;
 let timeValue = 15;
 
 startGame = () => {
 
-    questionCounter = 0
-    score = 0
-    availableQuestions = [...questions]
-    getNewQuestion()
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
 
-}
+};
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         
-        return window.location.assign("end.html")
+        return window.location.assign("end.html");
     }
     
-    clearInterval(counter)
-    startTimer(timeValue)
-    questionCounter++
+    clearInterval(counter);
+    startTimer(timeValue);
+    questionCounter++;
     
-    localStorage.setItem("mostRecentScore", score)
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-    progresBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    localStorage.setItem("mostRecentScore", score);
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
+    progresBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
-        const number = choice.dataset["number"]
-        choice.innerText = currentQuestion["choice" + number]
-    })
+        const number = choice.dataset["number"];
+        choice.innerText = currentQuestion["choice" + number];
+    });
 
-    availableQuestions.splice(questionsIndex, 1)
+    availableQuestions.splice(questionsIndex, 1);
 
-    acceptingAnswers = true
-}
+    acceptingAnswers = true;
+};
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return
+        if(!acceptingAnswers) return;
 
-        acceptingAnswers = false
-        const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset['number']
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
         
         if(classToApply ==='correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }
 
-        selectedChoice.parentElement.classList.add(classToApply)
+        selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
-        }, 500)
-    })
-})
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 500);
+    });
+});
 
 incrementScore = num => {
-    score += num
-    scoreText.innerText = score
-}
+    score += num;
+    scoreText.innerText = score;
+};
 
-startGame()
+startGame();
 
 function startTimer (time) {
-    counter = setInterval(timer, 1000)
+    counter = setInterval(timer, 1000);
     function timer() {
         timeCount.textContent = time;
         time--;
         if(time === -1) {
-            clearInterval(counter)
-            getNewQuestion()
+            clearInterval(counter);
+            getNewQuestion();
         }
     }
 }
-
-  
