@@ -43,7 +43,7 @@ The End page shows you your final score and a car you deserve. It also gives you
 ### High Score 
 This page display leaderboard(both scores and the names of the players). You can go to the main page form it as well.
 
-## Wireframes 
+# Wireframes 
 
 <br><img src="/static/images/wireframes/quiz_pc.png"><br>
 
@@ -51,6 +51,23 @@ This page display leaderboard(both scores and the names of the players). You can
 -   Tablet Wireframe - [View](https://github.com/Rustam-Aliyev889/Quiz/blob/main/static/images/wireframes/quiz_tablet.png)
 -   Phone Wireframe - [View](https://github.com/Rustam-Aliyev889/Quiz/blob/main/static/images/wireframes/quiz_phone.png)<br>
 
+
+
+# Technologies, Frameworks, Libraries & Programs Used 
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/javascript)
+- [Google Fonts:](https://fonts.google.com/)     
+    - Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
+- [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the VS Code terminal to commit to Git and Push to GitHub.
+- [Visual Studio Code](https://code.visualstudio.com)
+    - I used VS Code as I have found it quite easy to use and also enables me to automatically have a hard copy of each file on my laptop
+- [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+- [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
 
 # Testing
 ## Testing web page  links

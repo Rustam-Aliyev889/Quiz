@@ -12,6 +12,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+// Quiz questions//
 let questions = [
     {
         question: "How many rings does the Audi logo have?",
@@ -124,6 +125,8 @@ const MAX_QUESTIONS = 13
 let counter = 0;
 let timeValue = 15;
 
+
+//start game func//
 startGame = () => {
 
     questionCounter = 0
@@ -133,6 +136,8 @@ startGame = () => {
 
 }
 
+
+//new question func//
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         
@@ -184,6 +189,7 @@ choices.forEach(choice => {
     })
 })
 
+
 incrementScore = num => {
     score += num
     scoreText.innerText = score
@@ -191,6 +197,8 @@ incrementScore = num => {
 
 startGame()
 
+
+//Timer//
 function startTimer (time) {
     counter = setInterval(timer, 1000)
     function timer() {

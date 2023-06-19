@@ -12,7 +12,9 @@ finalScore.innerText = mostRecentScore
 
 
 results(mostRecentScore)
+//variable to store your answer//
 var answer = "";
+//function which goes through results//
 function results(val) {
   
   
