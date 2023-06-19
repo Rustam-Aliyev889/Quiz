@@ -6,6 +6,33 @@
 The project is a car related quiz. It consists of 13 questions and 4 answers for each question.You have 15 seconds for each question. The goal of the quiz is to test your knowledge about cars in addition to find out waht car you should be driving.  :-)
 
 Altogether there are 4 web pages.
+
+-   ### User stories
+
+    -   #### First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to be able to understand how the website works. 
+        2. As a First Time Visitor, I want to be able to understand what is the purpose of the website.
+        3. As a First Time Visitor, I want to be able to understand main rules.<br>
+    
+    <img src="/static/images/screenshots/quiz-mock-up.jpg"><br>
+
+    <img src="/static/images/screenshots/quiz_p.png"><br>
+
+    -   #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want them to be able to save their score.
+        2. As a Returning Visitor, I want them to be able to compare their score with other players.<br>
+   
+    <img src="/static/images/screenshots/enf_p.png"><br>
+
+    <img src="/static/images/screenshots/quiz_lb.png"><br>
+
+
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want them to enjoy the website. 
+        2. As a Frequent User, I want them to encourage others to improve their knowledge about cars.<br>
+
 # Web pages
 ### Main(Index.html) page
 The Main page is the landing page which gives you two options. You can either start the quiz or check the highscores.
