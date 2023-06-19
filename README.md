@@ -37,6 +37,7 @@ The following web browsers were used to test the display of the website includin
 ###### Edge
 ###### Chrome
 ###### Opera
+###### Safari
 
 ## Language validation
 Validation of scripting languages were validated using the following:
