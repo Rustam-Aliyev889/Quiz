@@ -7,9 +7,9 @@ The project is a car related quiz. It consists of 13 questions and 4 answers for
 
 Altogether there are 4 web pages.
 
--   ### User stories
+-   ## User stories
 
-    -   #### First Time Visitor Goals
+    -   ### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to be able to understand how the website works. 
         2. As a First Time Visitor, I want to be able to understand what is the purpose of the website.
@@ -19,7 +19,7 @@ Altogether there are 4 web pages.
 
     <img src="/static/images/screenshots/quiz_p.png"><br>
 
-    -   #### Returning Visitor Goals
+    -   ### Returning Visitor Goals
 
         1. As a Returning Visitor, I want them to be able to save their score.
         2. As a Returning Visitor, I want them to be able to compare their score with other players.<br>
@@ -29,7 +29,7 @@ Altogether there are 4 web pages.
     <img src="/static/images/screenshots/quiz_lb.png"><br>
 
 
-    -   #### Frequent User Goals
+    -   ### Frequent User Goals
         1. As a Frequent User, I want them to enjoy the website. 
         2. As a Frequent User, I want them to encourage others to improve their knowledge about cars.<br>
 
@@ -43,14 +43,13 @@ The End page shows you your final score and a car you deserve. It also gives you
 ### High Score 
 This page display leaderboard(both scores and the names of the players). You can go to the main page form it as well.
 
-# Design 
-The interface consists of Wireframes (1 wireframe for each page). You cann find them in wireframes folder. The files are included named as follows:
-|Web page| File name|
-| ------ | ------ |
-|   Main page    |   Main.Png        |
-|   Quiz page    | Quiz.png          |
-|   End page     |   End.png        |
-|   High Score page     | HighScore.png          |
+## Wireframes 
+
+<br><img src="/static/images/wireframes/quiz_pc.png"><br>
+
+-   PC Wireframe- [View](https://github.com/Rustam-Aliyev889/Quiz/blob/main/static/images/wireframes/quiz_pc.png)
+-   Tablet Wireframe - [View](https://github.com/Rustam-Aliyev889/Quiz/blob/main/static/images/wireframes/quiz_tablet.png)
+-   Phone Wireframe - [View](https://github.com/Rustam-Aliyev889/Quiz/blob/main/static/images/wireframes/quiz_phone.png)<br>
 
 
 # Testing
