@@ -100,7 +100,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [Lighthouse reports]:
 
-### index.html
 <br><img src="/static/images/screenshots/lh_rp.png"><br>
 
 
