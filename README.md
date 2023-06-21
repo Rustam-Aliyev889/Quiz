@@ -96,13 +96,27 @@ Validation of scripting languages were validated using the following:
 | ------ | ------ |
 |Pages were not linked correctly as they were linking to the wrong pages or didn't work at all|This was corrected and recorded in the Test log|
 |The timer didn't start again eaach time you go to a new question |Code was included to correct it. Subsequent test verified correct operation of the timer|
-|Final result wasn't given at the end of the quiz|This was fixed and tested to ensure it works|
-
-# Deployment
-Website pages are standard HTML + CSS pages and HTML templates. Java Script is used for logic.
+|Final result wasn't given at the end of the quiz|This was fixed and tested to ensure it works|<br>
 
 # Where can it be found on GitHub? 
-The GitHub link for the project is - gh repo clone Rustam-Aliyev889/Quiz
+The GitHub link for the project is - gh repo clone Rustam-Aliyev889/Quiz<br>
+
+## Deployment
+
+### Where can it be found on GitHub? 
+The GitHub link for the project is - https://github.com/Rustam-Aliyev889/Quiz
+
+### GitHub Pages
+
+I deployed the project onto GitHub Pages using the following steps:
+
+1. Go to my GitHub repository for the project this is the link. [My GitHub Repository for Quiz](https://github.com/Rustam-Aliyev889/Quiz)
+2. Locate the 'Settings' button for the repository and click.
+3. Scroll down the Settings page until you see the "Pages" Section on your left.
+4. You need to change the "Source", by clicking the dropdown and choose "deploy from a branch".
+5. You then need to change branch from 'None' to 'main'.
+7. The page will automatically refresh.
+7. At the top of the 'Pages' section, look to locate the now published site [link](https://rustam-aliyev889.github.io/Quiz/index.html).
 
 ## Contributing
 

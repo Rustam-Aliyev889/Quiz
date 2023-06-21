@@ -156,7 +156,6 @@ input::placeholder {
     cursor: pointer;
     box-shadow: 0.5rem 0.5rem 1.5rem 0 #df9af1;
     transform: scale(1.02);
-    transform:100ms;
 }
 
 .chioce-prefix {
