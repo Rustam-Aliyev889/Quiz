@@ -102,6 +102,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <br><img src="/static/images/screenshots/lh_rp.png"><br>
 
+-   [JShint report]:
+
+<br><img src="/static/images/screenshots/js-test.png"><br>
 
 # Bugs
 |Bug|Comment|
