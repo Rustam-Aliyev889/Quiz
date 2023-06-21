@@ -115,8 +115,6 @@ To test my code I isolated some parts of it with comments to find out what is mi
 |The timer didn't start again eaach time you go to a new question |Code was included to correct it. Subsequent test verified correct operation of the timer|
 |Final result wasn't given at the end of the quiz|This was fixed and tested to ensure it works|<br>
 
-# Where can it be found on GitHub? 
-The GitHub link for the project is - gh repo clone Rustam-Aliyev889/Quiz<br>
 
 ## Deployment
 
