@@ -87,10 +87,23 @@ The following web browsers were used to test the display of the website includin
 ###### Safari
 
 ## Language validation
-Validation of scripting languages were validated using the following:
-•       HTML validation using HTML validator (W3C validator) at https://jigsaw.w3.org/css-validator/
-•       JavaScript validated at https://esprima.org/demo/validate.html
-•       CSS validated at https://jigsaw.w3.org/css-validator/
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.<br>
+
+ <img src="/static/images/screenshots/html_test_index.png"><br>
+
+-   [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frustam-aliyev889.github.io%2FQuiz%2Findex.html) - Results - No Errors or Warnings
+
+
+<img src="/static/images/screenshots/css_test.png"><br>
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - Results No Errors<br>
+
+-   [Lighthouse reports]:
+
+### index.html
+<br><img src="/static/images/screenshots/lh_rp.png"><br>
+
+
 # Bugs
 |Bug|Comment|
 | ------ | ------ |
