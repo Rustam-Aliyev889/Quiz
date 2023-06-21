@@ -70,7 +70,7 @@ This page display leaderboard(both scores and the names of the players). You can
     - Balsamiq was used to create the wireframes during the design process.
 
 # Testing
-## Testing web page  links
+## Testing web page links
 |Test Case| Test|Expected Outcome|Actual Outcome|Comment|
 | ------ | ------ |------ |------ |------ |
 |1|   Main page links  functional test    |  launch Main page        |All links launched Main page|n/a|
@@ -87,7 +87,9 @@ The following web browsers were used to test the display of the website includin
 ###### Safari
 
 ## Language validation
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.<br>
+The W3C Markup Validator, W3C CSS Validator and JShint Services were used to validate every page of the project to ensure there were no syntax errors in the project.<br><br>
+
+To test my code I isolated some parts of it with comments to find out what is might be the problem. I ran into a couple of problems however isolation helped me to figure it out.
 
  <img src="/static/images/screenshots/html_test_index.png"><br>
 
@@ -102,7 +104,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <br><img src="/static/images/screenshots/lh_rp.png"><br>
 
--   [JShint report]:
+-   [JShint report]: - Results No Errors 
 
 <br><img src="/static/images/screenshots/js-test.png"><br>
 
