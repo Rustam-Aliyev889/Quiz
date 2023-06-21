@@ -87,9 +87,7 @@ The following web browsers were used to test the display of the website includin
 ###### Safari
 
 ## Language validation
-The W3C Markup Validator, W3C CSS Validator and JShint Services were used to validate every page of the project to ensure there were no syntax errors in the project.<br><br>
-
-To test my code I isolated some parts of it with comments to find out what is might be the problem. I ran into a couple of problems however isolation helped me to figure it out.
+The W3C Markup Validator, W3C CSS Validator and JShint Services were used to validate every page of the project to ensure there were no syntax errors in the project.<br>
 
  <img src="/static/images/screenshots/html_test_index.png"><br>
 
@@ -109,6 +107,7 @@ To test my code I isolated some parts of it with comments to find out what is mi
 <br><img src="/static/images/screenshots/js-test.png"><br>
 
 # Bugs
+## To test my code I isolated some parts of it with comments to find out what is might be the problem. I ran into a couple of problems however isolation helped me to figure it out.<br>
 |Bug|Comment|
 | ------ | ------ |
 |Pages were not linked correctly as they were linking to the wrong pages or didn't work at all|This was corrected and recorded in the Test log|
